@@ -1,5 +1,13 @@
 .gradle
 build
 libbulletjme.so
-src/main/resources
-!src/main/resources/GameData
+src/main/resources/Audio
+src/main/resources/Interface
+src/main/resources/MatDefs
+src/main/resources/Materials
+src/main/resources/Models
+src/main/resources/out.txt
+src/main/resources/Scenes
+src/main/resources/Shaders
+src/main/resources/Sounds
+src/main/resources/Textures

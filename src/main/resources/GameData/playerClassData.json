@@ -1,0 +1,23 @@
+{
+    "DemoPilot":{
+        "model": "Models/sci_fi_protagonist.j3o",
+        "scale": 0.1,
+        "base_stats": {
+            "STRN": 100.0,
+            "AGIL": 100.0,
+            "PERC": 100.0,
+            "WILL": 100.0,
+            "VITL": 100.0,
+            "CONN": 100.0
+        },
+        "growths": {
+            "STRN": [1.0,4.0],
+            "AGIL": [1.0,4.0],
+            "PERC": [1.0,4.0],
+            "WILL": [1.0,4.0],
+            "VITL": [1.0,4.0],
+            "CONN": [1.0,4.0]
+        },
+        "Skills":[]
+    }
+}

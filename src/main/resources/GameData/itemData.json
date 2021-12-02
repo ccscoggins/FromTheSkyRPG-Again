@@ -1,0 +1,8 @@
+{
+    "Med-Spray": {
+        "usability": "BOTH",
+        "consumable": true,
+        "effect": "HEAL",
+        "magnitude": 50
+    }
+}

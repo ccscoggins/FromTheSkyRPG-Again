@@ -1,0 +1,23 @@
+{
+    "party": [
+        {
+            "name": "Zeke",
+            "class": "Robot",
+            "maxHP": 50.0,
+            "STRN": 20.0,
+            "AGIL": 20.0,
+            "PERC": 20.0,
+            "WILL": 20.0,
+            "VITL": 20.0,
+            "CONN": 20.0,
+            "exp": 400.0,
+            "skills": []
+        }
+    ],
+    "currentMap": "testisle",
+    "currentPosition": [0, 10, 0],
+    "inventory": [],
+    "storyflags": {
+        "testflag": 0x20
+    }
+}

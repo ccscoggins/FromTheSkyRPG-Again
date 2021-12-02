@@ -1,0 +1,24 @@
+{
+    "testisle": {
+        "map": "Models/demoisle.j3o",
+        "solid": [
+            "Island",
+            "inviswall"
+        ],
+        "invisible": [
+            "inviswall",
+            "EncounterArea"
+        ],
+        "water": "Ocean",
+        "arena": "ARENA_TEST",
+        "encounters": [
+            {
+                "FRONT_CENTER": "Bloodied Hound",
+                "FRONT_LEFT": "Bloodied Hound",
+                "FRONT_RIGHT": "Bloodied Hound",
+                "rate": 1.0,
+                "music": "Audio/07beatdown.ogg"
+            }
+        ]
+    }
+}
