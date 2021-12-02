@@ -1,0 +1,5 @@
+.gradle
+build
+libbulletjme.so
+src/main/resources
+!src/main/resources/GameData
