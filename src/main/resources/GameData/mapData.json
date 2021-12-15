@@ -13,12 +13,101 @@
         "arena": "ARENA_TEST",
         "encounters": [
             {
+                "encounter_text": "Enemies attacked!",
                 "FRONT_CENTER": "Bloodied Hound",
                 "FRONT_LEFT": "Bloodied Hound",
                 "FRONT_RIGHT": "Bloodied Hound",
                 "rate": 1.0,
-                "music": "Audio/07beatdown.ogg"
+                "music": "Audio/to_the_front.ogg"
             }
+        ],
+        "encFreq": 4,
+        "encDev": 2,
+        "encRate": 0.8
+    },
+    "village": {
+        "map": "Scenes/village.j3o",
+        "music": "Audio/a_journey_awaits.ogg",
+        "solid": [
+        	"inviswall",
+        	"ground",
+        	"house1",
+        	"house2",
+        	"bighouse",
+        	"Tower",
+        	"Tower001",
+        	"Table",
+        	"Table.001",
+        	"Table.002",
+        	"rock[0-9]",
+        	"lamp[0-9]",
+        	"tree[0-9]+"
+        ],
+        "invisible": [
+        	"inviswall"
+        ],
+        "arena": "ARENA_TEST",
+        "encounters": [],
+        "encFreq": 9999999,
+        "encDev": 0,
+        "encRate": 0.0,
+        "scriptTargets": [
+        	
         ]
+    },
+    "bigfield": {
+        "map": "Models/big-field.j3o",
+        "solid": [
+        	"ground",
+        	"inviswall",
+        	"mountain.[0-9]",
+        	"Tree.*",
+        ],
+        "invisible": [
+        	"inviswall",
+        	"EncounterArea"
+        ],
+        "water": "water",
+        "arena": "ARENA_TEST",
+        "encounters": [
+            {
+                "encounter_text": "Wild dogs attacked!",
+                "FRONT_CENTER": "Bloodied Hound",
+                "FRONT_LEFT": "Bloodied Hound",
+                "FRONT_RIGHT": "Bloodied Hound",
+                "rate": 1.0,
+                "music": "Audio/to_the_front.ogg"
+            },
+            {
+                "encounter_text": "You're being mugged!",
+                "FRONT_LEFT": "Salvager",
+                "FRONT_RIGHT": "Salvager",
+                "rate": 1.0,
+                "music": "Audio/to_the_front.ogg"
+            },
+            {
+                "encounter_text": "You've been tracked down!",
+                "FRONT_CENTER": "Bloodied Hound",
+                "FRONT_LEFT": "Bloodied Hound",
+                "BACK_LEFT": "Salvager",
+                "rate": 0.5,
+                "music": "Audio/to_the_front.ogg"
+            }],
+        "encFreq": 20,
+        "encDev": 10,
+        "encRate": 0.8,
+        "scriptObjects": []
+    },
+    "blank": {
+        "map": "",
+        "solid": [],
+        "invisible": [],
+        "water": "",
+        "arena": "ARENA_TEST",
+        "encounters": [],
+        "encFreq": 9999999,
+        "encDev": 4,
+        "encRate": 0.0,
+        "scriptTargets": []
     }
 }

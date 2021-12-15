@@ -1,22 +1,43 @@
 {
-    "DemoPilot":{
+    "Pilot":{
         "model": "Models/sci_fi_protagonist.j3o",
         "scale": 0.1,
         "base_stats": {
-            "STRN": 100.0,
-            "AGIL": 100.0,
-            "PERC": 100.0,
-            "WILL": 100.0,
-            "VITL": 100.0,
-            "CONN": 100.0
+            "STRN": 14.0,
+            "AGIL": 16.0,
+            "PERC": 16.0,
+            "WILL": 18.0,
+            "VITL": 10.0,
+            "CONN": 24.0
         },
         "growths": {
             "STRN": [1.0,4.0],
-            "AGIL": [1.0,4.0],
+            "AGIL": [2.0,6.0],
+            "PERC": [1.0,5.0],
+            "WILL": [2.0,4.0],
+            "VITL": [1.0,4.0],
+            "CONN": [2.0,6.0]
+        },
+        "Skills":[]
+    },
+    "Broker":{
+        "model": "Models/broker.j3o",
+        "scale": 0.1,
+        "base_stats": {
+            "STRN": 17.0,
+            "AGIL": 12.0,
+            "PERC": 16.0,
+            "WILL": 14.0,
+            "VITL": 17.0,
+            "CONN": 9.0
+        },
+        "growths": {
+            "STRN": [2.0,5.0],
+            "AGIL": [2.0,4.0],
             "PERC": [1.0,4.0],
             "WILL": [1.0,4.0],
-            "VITL": [1.0,4.0],
-            "CONN": [1.0,4.0]
+            "VITL": [2.0,5.0],
+            "CONN": [1.0,2.0]
         },
         "Skills":[]
     }

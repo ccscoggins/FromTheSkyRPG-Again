@@ -1,0 +1,73 @@
+{
+	"credits": [
+		{
+			"role": "Director",
+			"people": ["Cameron Scoggins"]
+		},
+		{
+			"role": "Lead Program Design",
+			"people": ["Cameron Scoggins"]
+		},
+		{
+			"role": "World Design",
+			"people": ["Patrick Nelson"]
+		},
+		{
+			"role": "Character Design",
+			"people": ["Patrick Nelson"]
+		},
+		{
+			"role": "Programming",
+			"people": ["Cameron Scoggins"]
+		},
+		{
+			"heading": "Music",
+			"subcredits": [
+			{
+				"description": "Battle theme",
+				"title": "To the Front",
+				"license": "Creative Commons Zero (Public Domain)",
+				"attribution": "congus bongus"	
+			},
+			{
+				"description": "Boss battle theme",
+				"title": "Orbital Colossus",
+				"license": "Creative Commons CC-BY 3.0",
+				"attribution": "Matthew Pablo"
+			},
+			{
+				"description": "Overworld map theme",
+				"title": "A Journey Awaits",
+				"license": "Creative Commons CC-BY-SA 3.0",
+				"attribution": "Pierre Bondoerffer (@pbondoer)"
+			},
+			{
+				"description": "",
+				"title": "",
+				"license": "",
+				"attribution": ""	
+			}
+				
+			
+			]
+		},
+		
+		{
+			"role": "Additional Music",
+			"people": ["Cameron Scoggins"]
+		},
+		{
+			"role": "Special Thanks",
+			"people": [
+				"The JME3 Community",
+				"Stephen Gold",
+				"The Blender Development Team",
+				"and You, the Player!"
+			]
+		},
+		{
+			"role": "",
+			"image-logo": "group5games.png"
+		}
+	]
+}

@@ -50,7 +50,7 @@ tasks.withType(JavaExec) { // Java runtime options:
 // Note however, that you may define your own "run" and "debug" task if you
 // prefer. In this case NetBeans will not add these tasks but you may rely on
 // your own implementation.
-mainClassName = 'com.mygame.Main'
+mainClassName = 'mygame.Main'
 if (!hasProperty('mainClass')) {
     ext.mainClass = mainClassName
 }

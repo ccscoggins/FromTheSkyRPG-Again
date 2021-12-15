@@ -1,0 +1,155 @@
+{
+    "prototypicalActions": [
+        {
+            "action": "MESSAGE",
+            "arguments": [
+                "Messages can contain multiple lines, which will appear as separate 'screens' of text.",
+                "Messages that are too long might wrap the screen, so be sure to make them reasonable lengths."
+            ]
+        },
+        {
+            "action": "MAP",
+            "arguments": [
+                "testmap",
+                "SPAWNPOINT"
+            ]
+        },
+        {
+            "action": "MOVE",
+            "arguments": [
+                -1,
+                14,
+                7.4
+            ]
+        },
+        {
+            "action": "ITEMCHECK",
+            "arguments": [
+            	"Lost Key",
+            	"RunThisScriptIfFalse"
+            ]
+        },
+        {
+            "action": "ITEMADD",
+            "arguments": [
+            	"Med-Spray",
+            	2
+            ]
+        },
+        {
+            "action": "ITEMREMOVE",
+            "arguments": [
+            	"Med-Spray",
+            	1
+            ]
+        },
+        {
+            "action": "FLAGCHECK",
+            "arguments": [
+            	"RuinDoorState",
+            	"GT",
+            	0,
+            	"RunThisScriptIfFalse"
+            ]
+        },
+        {
+            "action": "FLAGSET",
+            "arguments": [
+            	"RuinDoorState",
+            	10
+            ]
+        },
+        {
+            "action": "BATTLE",
+            "arguments": [
+                {
+                    "encounter_text": "Combat failsafe disengaged.",
+                    "FRONT_CENTER": "A-4 Prototype Security Auton",
+                    "music": "FIXME_BOSS_MUSIC"
+                },
+                "scriptPostBattle"
+            ]
+        }
+    ],
+    "welcome_msg": [
+		{
+			"action": "MESSAGE",
+			"arguments": [
+				"  Welcome to the From the Sky alpha demo!",
+				"  Currently we don't have many events to offer you, but feel free to wander\nthe wilds around here and battle some enemies!"
+			]
+		}
+    ],
+    "startBossEncounter": [
+        {
+            "action": "MESSAGE",
+            "arguments": [
+                "Security Robot:\n  INTRUDER DETECTED.  IDENTIFICATION: FAILED.  COMBAT FAILSAFE: DISENGAGED."
+            ]
+        },
+        {
+            "action": "BATTLE",
+            "arguments": [
+                {
+                    "encounter_text": "Combat failsafe disengaged.",
+                    "FRONT_CENTER": "A-4 Prototype Security Auton",
+                    "music": "FIXME_BOSS_MUSIC"
+                }
+            ]
+        }
+    ],
+    "enterVillage": [
+        {
+            "action": "MAP",
+            "arguments": [
+                "village",
+                "OUTSIDE_ENTRANCE"
+            ]
+        }
+    ],
+    "exitVillage": [
+        {
+            "action": "MAP",
+            "arguments": [
+                "worldmap",
+                "VILLAGE_EXIT"
+            ]
+        }
+    ],
+    "enterRuinExterior": [
+        {
+            "action": "MAP",
+            "arguments": [
+                "ruin-ext",
+                "OUTSIDE_ENTRANCE"
+            ]
+        }
+    ],
+    "exitRuinExterior": [
+        {
+            "action": "MAP",
+            "arguments": [
+                "worldmap",
+                "RUINS_EXIT"
+            ]
+        }
+    ],
+    "enterRuinInterior": [
+        {
+            "action": "MAP",
+            "arguments": [
+                "ruin-int",
+                "ENTRANCE"
+            ]
+        }
+    ],
+    "exitRuinInterior": [
+        {
+            "action": "MAP",
+            "arguments": [
+                "ruin_ext",
+                "RUINS_EXIT"
+            ]
+        }
+    ]
+}

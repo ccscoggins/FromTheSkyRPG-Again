@@ -3,6 +3,7 @@
         "usability": "BOTH",
         "consumable": true,
         "effect": "HEAL",
-        "magnitude": 50
+        "magnitude": 50,
+        "price": 120
     }
 }

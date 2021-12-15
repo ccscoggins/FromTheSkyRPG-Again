@@ -1,0 +1,9 @@
+{
+    "First Aid": {
+        "targets": "ALLIES",
+        "field-usable": true,
+        "effect": "HEAL",
+        "magnitude": 50,
+        "sp-cost": 14
+    }
+}
